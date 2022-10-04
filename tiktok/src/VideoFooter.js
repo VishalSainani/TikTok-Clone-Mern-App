@@ -11,13 +11,13 @@ function VideoFooter({ channel, description, song }) {
                 <p>{description}</p>
                 <div className='videoFooter__ticker'>
                     <MusicNoteIcon className='videoFooter__icon' />
-                    <Ticker mode="smooth">
+                    {/* <Ticker mode="smooth">
                         {({ index }) => (
                             <>
                                 <p>{song}</p>
                             </>
                         )}
-                    </Ticker>
+                    </Ticker> */}
                 </div>
             </div>
             <img
