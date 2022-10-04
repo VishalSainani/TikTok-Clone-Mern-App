@@ -1,0 +1,42 @@
+                    Full Stack Build
+Frontend: 
+    React js
+    Material Ui
+    Flexbox
+    ticker third party library
+    scroll snap
+    Hosting: Firebase
+
+Backend:
+    Node.js
+    express.js Server
+    Mongodb database connection with mongoose
+    Hosting: Heroku
+
+
+Coding Structure:
+    {app container}:
+        {<Video />}:
+            {<videoFooter>}
+            {<videoSidebar>}
+        {<Video />}
+            {<videoFooter>}
+            {<videoSidebar>}
+        {<Video />}
+            {<videoFooter>}
+            {<videoSidebar>}
+
+
+side things:
+    express =>server framework
+    mongoose => tool to connect with database
+
+
+
+.....//
+
+Rest Api{
+    get / post / delete /...
+}
+
+post request=> add data to datbase
